@@ -1,0 +1,45 @@
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+
+pids
+logs
+results
+
+#node_modules/
+node_modules/*
+!node_modules/twitter-node
+.settings.xml
+#nbproject/
+nbproject/*
+*.komodoproject
+*.sublime-project
+*.sublime-workspace
+
+# Config
+config/mapolo.yaml
+config/elvis.yaml
+config/production.yaml
+config/cirpomac.yaml
+config/misato.yaml
+config/noname.yaml
+
+npm-debug.log
+
+!.gitignore
+
+# Can ignore specific files
+.DS_Store
+# Use wildcards as well
+*~
+*.swp
+cirpomac.yaml
+noname.yaml
+sandro-paganotti*
+abarrila.yaml
